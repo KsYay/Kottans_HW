@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 3px;
+}
+
+body {
+	color: #D7D7D7;
+	background-color: #520002;
+	font-size: 20px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+*::selection{
+	background: #FFBF25;
+}
+
+h2 {
+	color: ;
+	font-size: 200%;
+	margin-bottom: 10px;
+}
+
+p:first-letter {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+a {
+	color: #2A67B9;
+	font-style: italic;
+	font-size: 20px;
+}
+
+nav {
+	margin: 0 auto;
+	width: 320px;
+}
+
+nav a {
+	color: #FFFFFF;;
+}
+
+a:hover {
+	background: #FFFFFF;
+	color: #4C4C4C;
+}
+
+a:visited {
+	color: #9327BA;
+}
+
+nav a:visited {
+	color: #828282;
+}
+
+.faq_class {
+	background: #942D2F;
+	font-size: 15px;
+}
+
+dt:before {
+	content: "Question:  ";
+	font-weight: bold;
+}
+
+dd:before {
+	content: "Answer:  ";
+	font-weight: bold;
+}
+
+dt {
+		font-size: 20px;
+}
+
+.contacts_class:after {
+	content: "Thank you for feedback!"
+}
