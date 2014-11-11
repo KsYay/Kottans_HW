@@ -1,0 +1,232 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+body {
+	color: #EBDACA;
+	background-color: #AD6864;
+	font-size: 20px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+
+section {
+	border: 1px solid #EBDACA;
+	padding: 20px;
+}
+
+section:after {
+	clear: both;
+}
+section:before {
+	clear: both;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+*::selection{
+	background: #ECB8B1;
+}
+
+h2 {
+	font-size: 200%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h3 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+a {
+	color: #F3DFA5;
+	font-style: italic;
+	font-size: 20px;
+}
+
+nav {
+	margin: 0 auto;
+	width: 100%;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #F3DFA5;
+	display: inline-block;
+	width: calc(25% - 10px);
+	margin: 0;
+	padding: 5px;
+	overflow: hidden;
+	height: 20px;
+	text-align: center;
+}
+
+a:hover {
+	background: #EAC7AB;
+}
+
+a:visited {
+	color: #56374D;
+}
+
+nav a:visited {
+	color: #FFFFFF;
+}
+
+dt:before {
+	content: "Question:  ";
+	font-weight: bold;
+}
+
+dd:before {
+	content: "Answer:  ";
+	font-weight: bold;
+}
+
+dt {
+		font-size: 20px;
+}
+
+dd {
+	margin-left: 30px;
+}
+
+form {
+	margin: 0 auto;
+	width: 180px;
+}
+
+img {
+	width: 200px;
+}
+
+.img-right {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.img-left {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.faq_class {
+	font-size: 15px;
+}
+
+form p {
+	font-size: 15px;
+}
+
+footer {
+	padding: 20px;
+}
+
+.footer_nav {
+	float: left;
+	width: 50%;
+}
+
+.voting {
+	float: right;
+	width: 45%;
+}
+
+.voting form {
+	float: right;
+	width: 50%;
+}
+
+.voting p {
+	float: left;
+	width: 200px;
+}
+
+.footer_nav a {
+	width: calc(25% - 15px);
+	background: none;
+}
+
+.footer_nav a:visited {
+	color: #F3DFA5;
+}
+
+@media (max-width: 1200px) {
+	.voting form {
+		float: right;
+		margin: 0px;
+		width: 190px;
+/*		display: inline;*/
+	}
+
+	.voting p {
+		float: right;
+	}
+}
+
+@media (max-width: 975px) {
+	.container {
+		width: 100%;
+	}
+	.footer_nav span {
+
+	word-break: break-all;
+}
+
+}
+
+@media (max-width: 500px) {
+	nav a {
+		width: 100%;
+		height: 30px;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.register_class {
+		display: none;
+	}
+
+	.footer_nav {
+		display: none;
+	}
+
+	footer input[type="radio"] {
+		height: 30px;
+		width: 30px;
+	}
+
+	footer input[type="submit"] {
+		height: 80px;
+		width: 110px;
+		font-size: 30px;
+	}
+
+	.voting {
+		float: none;
+		width: 100%;
+	}
+
+	.voting form {
+		float: none;
+		width: 100%;
+	}
+
+	.voting p {
+		float: none;
+		width: 100%;
+	}
+}
